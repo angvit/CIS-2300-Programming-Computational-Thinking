@@ -1,0 +1,37 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# ## Assignment #1a
+
+# #### Rename this Jupyter Notebook to: YourLastNameYourFirstNameAssignment#1a by clicking in the notebook name (Assignment #1a) at the top of the Notebook, to the the right of "Jupyter" and prepending LastNameFirstName to the notebook name.
+# 
+# #### For example, after renaming, your notebook's name might be WineStanleyAssignment #1a.
+# 
+# #### Type your answers into the cells below.
+# 
+# You may __only use Python language features that have been covered in the assigned portions of the text or in class__.  This is to discourage students from finding solutions on the web and copying them.
+# 
+# #### When you are finished, in the File menu, select "Download as" to download this notebook as an .ipynb file; it will be downloaded to your downloads directory.
+# #### Follow the instructions in the Blackboard Assignment for attaching a file to Blackboard and submitting it.
+# #### Enter your name in the cell below.
+
+# In[ ]:
+
+
+Name: Angelo Vitalino
+
+
+# #### 1a) In the cell below, write a Python program which inputs your first and last names from the keyboard and prints the strings "My first name is:" and the name that was read in on one line and "My last name is:" and the name that was read in on another line.  Following the detailed instructions in the Blackboard Assignment.  In the cell below, choose Code as the content type in the dropdpwn box below the menu bar.  Run the program to demonstrate its correctness; if you do not include an example of a successful run, you will not get credit for this question.
+# 
+# Sample program output follows:
+Enter your first name: Stan
+Enter your last name: Wine
+My first name is Stan
+My last name is Wine
+# In[4]:
+
+
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+print("My first name is " + first_name)
+print("My last name is " + last_name)
